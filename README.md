@@ -11,7 +11,7 @@ int main() {
   OLED_Init();
   while (true) {
         OLED_ShowNum(1, 1, 1001, 4); // Start from row 1 column 1, show a number 1001 whose length is 4.
-        OLED_ShowString(2, 1, "Jason Wu"); // Start from row 2 column 1, show a string "Jason Wu".
+        OLED_ShowString(2, 1, "Shizhong Xu"); // Start from row 2 column 1, show a string "Shizhong Xu".
         OLED_ShowSignedNum(3, 1, -12, 2); // Start from row 3 column 1, show a signed number -12 whose length is 2.
   }
 }
