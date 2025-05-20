@@ -1,5 +1,5 @@
 To use this library, you should add **#include "i2c_oled.h"** in your c/cpp file.
-
+This library is special for mbed studio.
 Here is a demo for this library.
 ```
 #include "mbed.h"
